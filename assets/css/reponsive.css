@@ -1,0 +1,187 @@
+
+
+@media (min-width:740px) and (max-width: 1023px) {
+
+    .ul-control li {
+        display: none;
+    }
+    .header{
+        padding-top: 24px;
+    }
+
+    .ul-control .cart-item {
+        display: inline-block;
+    }
+    .banner {
+        transform: translateX(-50%); 
+        max-width: 100%;
+        width: 100%;
+ 
+    }
+    .title-index {
+        padding-top: 0px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #679210;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        align-items: end;
+    }
+    .slide-vegetable img {
+        width: 100%;
+        height: auto;
+    }
+    .banner img {
+        width: 100%; /* Đảm bảo ảnh phủ đầy chiều rộng của phần banner */
+        height: auto; /* Giữ tỷ lệ chiều cao của ảnh */
+        display: block; /* Loại bỏ khoảng trắng dưới ảnh */
+        margin: 0 auto; /* Căn giữa ảnh nếu cần thiết */
+    }
+
+    .main-nav {
+        display: none;
+    }
+    /* Thay đổi nền và kiểu chữ cho phần footer */
+.footer {
+    background-color: #efffcf;
+    padding: 30px 0; /* Padding cho phần footer */
+}
+
+/* Định dạng phần pay */
+.pay {
+    width: 100%;
+    max-width: 433px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 20px; /* Khoảng cách với phần bên phải */
+}
+
+.pay .logo img {
+    width: 120px; /* Đảm bảo logo không quá lớn */
+    height: auto;
+}
+
+.pay p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Định dạng các tiêu đề menu */
+.title-menu {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #679210;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Định dạng hình ảnh thanh toán */
+.img-pay {
+    width: 49px;
+    height: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* Định dạng cho các mục chính sách và info chung */
+.policy, .info {
+    width: 100%;
+    max-width: 300px;
+}
+
+.policy p, .info p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+.footer b {
+    color: #679210;
+    font-weight: 700;
+}
+
+/* Định dạng cho phần info liên kết mạng xã hội */
+.info .title-menu2 {
+    margin-top: 20px;
+}
+
+.img-info {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Flexbox cho toàn bộ phần footer */
+.footer .width-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.footer .width-section div {
+    flex: 1;
+    min-width: 280px;
+    margin-right: 20px;
+}
+
+/* Thiết lập các kiểu cho phần bản quyền */
+.copyright {
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000;
+    border-top: 1px solid #679210;
+    text-align: center;
+}
+.footer .width-section {
+    flex-direction: column;
+    align-items: center;
+}
+
+.pay, .policy, .info {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer .width-section div {
+    margin-right: 0;
+}
+.food {
+    width: 144px;
+}
+
+
+.img-pay {
+    width: 40px;
+    height: 25px;
+}
+
+.img-info {
+    width: 28px;
+    height: 28px;
+}
+.sale {
+    height: 240px;
+    cursor: pointer;
+    align-items: unset;
+   
+}
+.service {
+    width: 222px;
+    /* width: 23rem; */
+    height: 423px;
+
+    padding: 20px;
+}
+}
+
+/* Responsive cho các màn hình nhỏ */
+
+
+
+

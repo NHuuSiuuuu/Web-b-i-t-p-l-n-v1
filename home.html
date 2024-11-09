@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
     <title>Dola Organic v3</title>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
-
+    <!-- <link rel="stylesheet" href="./assets/css/rs.css"> -->
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/fonts/fontawesome-free-6.6.0-web/css/all.min.css">
 </head>
 
 <body>
     <div class="main-container">
-        <header class="header">
+        <header class="header"> <!--Phần header-->
             <div class="container">
                 <div class="header-content">
                     <div class="header-logo">
@@ -22,8 +23,8 @@
                     </div>
                     <div class="header-actions">
                         <div class="search-bar">
-                            <input type="text" placeholder="Bạn muốn làm gì >">
-                            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            <input type="text" placeholder="Bạn muốn làm gì ?">
+                            <button type="submit"><i class='bx bx-search'></i></button>
                         </div>
                     </div>
                     <!-- Khối thông tin liên hệ và các nút -->
@@ -48,7 +49,7 @@
                         </ul>
                     </div>
                 </div>
-                <!-- Menu nut dieu huong -->
+                <!-- Menu nút điều hướng -->
                 <div class="main-nav">
                     <div class="menu-nav">
                         <ul class="nav-list">
@@ -73,7 +74,7 @@
         <main class="main-content">
             <div class="width-section">
                 <div class="box-content">
-                    <div class="title-index"> <!--Phần tiêu đề-->
+                    <div class="title-index"> <!--Phần tiêu đề Danh mục nổi bật-->
                         <div class="title-name"> <!--Tiêu đề-->
                             <a href="">Danh mục nổi bật</a> <img src="./assets/img/title-name/leaf.webp" alt=""
                                 class="leaf">
@@ -107,12 +108,12 @@
                             <img src="./assets/img/food-list/food5.webp" alt="">
                             <p>Salad</p>
                         </div>
-                        <div class="food">
+                        <!-- <div class="food">
                             <img src="./assets/img/food-list/food6.webp" alt="">
                             <p>Thực phẩm khác</p>
-                        </div>
+                        </div> -->
                     </div>
-                    <!-- Khuyen mai hap dan  -->
+                    <!-- Khuyến mãi hấp dẫn  -->
                     <div class="title-index">
                         <div class="title-name">
                             <a href="">Khuyến mãi hấp dẫn</a> <img src="./assets/img/title-name/leaf.webp" alt=""
@@ -139,6 +140,16 @@
                                 </div>
 
                                 <div class="smart">Giảm 11%</div>
+                                <div class="heart-icon">
+                                    <!-- <a href="#" title="Sản phẩm yêu thích">
+                                        <img src="#" alt="Sản phẩm yêu thích">
+                                    </a> -->
+                                </div>
+                                <div class="cart-icon">
+                                    <a href="#" title="Xem giỏ hàng">
+                                        <img src="./assets/img/Cart/giohang.png" alt="Giỏ hàng">
+                                    </a>
+                                </div>
                             </div>
                             <div class="food sale">
                                 <img src="./assets/img/sale/2.webp" alt="">
@@ -148,6 +159,11 @@
                                 </div>
 
                                 <div class="smart">Giảm 11%</div>
+                                <div class="cart-icon">
+                                    <a href="#" title="Xem giỏ hàng">
+                                        <img src="./assets/img/Cart/giohang.png" alt="Giỏ hàng">
+                                    </a>
+                                </div>
                             </div>
                             <div class="food sale">
                                 <img src="./assets/img/sale/3.webp" alt="">
@@ -157,6 +173,11 @@
                                 </div>
 
                                 <div class="smart">Giảm 11%</div>
+                                <div class="cart-icon">
+                                    <a href="#" title="Xem giỏ hàng">
+                                        <img src="./assets/img/Cart/giohang.png" alt="Giỏ hàng">
+                                    </a>
+                                </div>
                             </div>
                             <div class="food sale">
                                 <img src="./assets/img/sale/4.webp" alt="">
@@ -166,6 +187,11 @@
                                 </div>
 
                                 <div class="smart">Giảm 11%</div>
+                                <div class="cart-icon">
+                                    <a href="#" title="Xem giỏ hàng">
+                                        <img src="./assets/img/Cart/giohang.png" alt="Giỏ hàng">
+                                    </a>
+                                </div>
                             </div>
                             <div class="food sale">
                                 <img src="./assets/img/sale/5.webp" alt="">
@@ -175,6 +201,11 @@
                                 </div>
 
                                 <div class="smart">Giảm 11%</div>
+                                <div class="cart-icon">
+                                    <a href="#" title="Xem giỏ hàng">
+                                        <img src="./assets/img/Cart/giohang.png" alt="Giỏ hàng">
+                                    </a>
+                                </div>
                             </div>
 
                         </div>
@@ -224,7 +255,7 @@
                         </div>
                     </div>
                     <!--  -->
-                    <div class="title-index">
+                    <div class="title-index"> <!--Rau củ-->
                         <div class="title-name">
                             <a href="">Rau củ</a> <img src="./assets/img/title-name/leaf.webp" alt="" class="leaf">
                             <span class="font16-block">Chương trình khuyến mãi hấp dẫn đang chờ đợi bạn</span>
@@ -248,6 +279,11 @@
                                 </div>
 
                                 <div class="smart">Giảm 11%</div>
+                                <div class="cart-icon">
+                                    <a href="#" title="Xem giỏ hàng">
+                                        <img src="./assets/img/Cart/giohang.png" alt="Giỏ hàng">
+                                    </a>
+                                </div>
                             </div>
                             <div class="food sale">
                                 <img src="./assets/img/vegetable/2.webp" alt="">
@@ -257,6 +293,11 @@
                                 </div>
 
                                 <div class="smart">Giảm 11%</div>
+                                <div class="cart-icon">
+                                    <a href="#" title="Xem giỏ hàng">
+                                        <img src="./assets/img/Cart/giohang.png" alt="Giỏ hàng">
+                                    </a>
+                                </div>
                             </div>
                             <div class="food sale">
                                 <img src="./assets/img/vegetable/3.webp" alt="">
@@ -265,6 +306,11 @@
                                     9.900đ <span>14.000₫</span>
                                 </div>
                                 <div class="smart">Giảm 29%</div>
+                                <div class="cart-icon">
+                                    <a href="#" title="Xem giỏ hàng">
+                                        <img src="./assets/img/Cart/giohang.png" alt="Giỏ hàng">
+                                    </a>
+                                </div>
                             </div>
                             <div class="food sale">
                                 <img src="./assets/img/vegetable/3.webp" alt="">
@@ -273,6 +319,11 @@
                                     9.900đ <span>14.000₫ </span>
                                 </div>
                                 <div class="smart">Giảm 11%</div>
+                                <div class="cart-icon">
+                                    <a href="#" title="Xem giỏ hàng">
+                                        <img src="./assets/img/Cart/giohang.png" alt="Giỏ hàng">
+                                    </a>
+                                </div>
                             </div>
                             <div class="food sale">
                                 <img src="./assets/img/vegetable/vegetable4/syws.jpg" alt="">
@@ -281,6 +332,11 @@
                                     9.900₫ <span></span>
                                 </div>
                                 <div class="smart"></div>
+                                <div class="cart-icon">
+                                    <a href="#" title="Xem giỏ hàng">
+                                        <img src="./assets/img/Cart/giohang.png" alt="Giỏ hàng">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div class="see-more"> <!--Nút xem tất cả-->
@@ -288,16 +344,16 @@
                         </div>
                     </div>
                     <!--  -->
-                    <div class="slide-vegetable">
+                    <div class="slide-vegetable"> <!--Nông sản sạch-->
                         <div class="img-title-vegetable">
                             <div class="box-img-title-vegetable">
                                 <img src="./assets/img/slide-img/banner.webp" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="title-index">
+                    <div class="title-index"> <!--Đồ khô-->
                         <div class="title-name">
-                            <a href="">Đồ khô</a> <img src="./assets/img/title-name/leaf.webp" alt="" class="leaf">>
+                            <a href="">Đồ khô</a> <img src="./assets/img/title-name/leaf.webp" alt="" class="leaf">
                         </div>
                         <div class="btn-control">
                             <div class="list-btn-control"><img src="./assets/img/btn control/trai.png" alt=""></div>
@@ -314,6 +370,11 @@
                                     52.000đ <span></span>
                                 </div>
                                 <div class="smart"></div>
+                                <div class="cart-icon">
+                                    <a href="#" title="Xem giỏ hàng">
+                                        <img src="./assets/img/Cart/giohang.png" alt="Giỏ hàng">
+                                    </a>
+                                </div>
                             </div>
                             <div class="food sale">
                                 <img src="./assets/img/dokho/2.webp" alt="">
@@ -322,6 +383,11 @@
                                     49.000₫ <span></span>
                                 </div>
                                 <div class="smart"></div>
+                                <div class="cart-icon">
+                                    <a href="#" title="Xem giỏ hàng">
+                                        <img src="./assets/img/Cart/giohang.png" alt="Giỏ hàng">
+                                    </a>
+                                </div>
                             </div>
                             <div class="food sale">
                                 <img src="./assets/img/dokho/3.webp" alt="">
@@ -330,6 +396,11 @@
                                     42.000đ <span></span>
                                 </div>
                                 <div class="smart"></div>
+                                <div class="cart-icon">
+                                    <a href="#" title="Xem giỏ hàng">
+                                        <img src="./assets/img/Cart/giohang.png" alt="Giỏ hàng">
+                                    </a>
+                                </div>
                             </div>
                             <div class="food sale">
                                 <img src="./assets/img/dokho/4.1.jpg" alt="">
@@ -338,6 +409,11 @@
                                     10.000đ <span> </span>
                                 </div>
                                 <div class="smart"></div>
+                                <div class="cart-icon">
+                                    <a href="#" title="Xem giỏ hàng">
+                                        <img src="./assets/img/Cart/giohang.png" alt="Giỏ hàng">
+                                    </a>
+                                </div>
                             </div>
                             <div class="food sale">
                                 <img style="height: 167px;" src="./assets/img/dokho/5.1.jpg" alt="">
@@ -346,6 +422,11 @@
                                     590.00₫ <span>727.000₫</span>
                                 </div>
                                 <div class="smart">Giảm 19%</div>
+                                <div class="cart-icon">
+                                    <a href="#" title="Xem giỏ hàng">
+                                        <img src="./assets/img/Cart/giohang.png" alt="Giỏ hàng">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div class="see-more"> <!--Nút xem tất cả-->
@@ -353,7 +434,7 @@
                         </div>
                     </div>
                     <!--  -->
-                    <div class="slide-vegetable">
+                    <div class="slide-vegetable"> <!--Rau củ tươi-->
                         <div class="img-title-vegetable">
                             <div class="box-img-title-vegetable">
                                 <img src="./assets/img/raucusach.webp" alt="">
@@ -367,49 +448,50 @@
 
 
     </div>
+    <footer class="footer"> <!--Phần Footer-->
+        <div class="width-section">
+            <div class="pay">
+                <div class="logo">
+                    <img src="./assets/img/logo/logo.webp" alt="">
+                </div>
+                <p>Chúng tôi hi vọng tất cả người tiêu dùng Việt nam sẽ được sử dụng những thụ phẩm rau củ quả tươi
+                    ngon, bổ dưỡng và an toàn nhất tại cửa hàng cung cấp thực phẩm rau củ sạch Dola <br>Organic.</p>
+                <br>
+                <h4 class="title-menu">Hình thức thanh toán</h4>
+                <img src="./assets/img/pay/money.webp" alt="" class="img-pay">
+                <img src="./assets/img/pay/bankking.webp" alt="" class="img-pay">
+                <img src="./assets/img/pay/visa.webp" alt="" class="img-pay">
+
+            </div>
+
+
+            <div class="policy">
+                <h4 class="title-menu">Chính sách</h4>
+                <p class="font16">Chính sách thành viên</p>
+                <p class="font16">Chính sách thanh toán</p>
+                <p class="font16">Hướng dẫn mua hàng</p>
+                <p class="font16">Bảo mật thông tin cá nhân</p>
+                <p class="font16">Quà tặng tri ân</p>
+            </div>
+
+
+            <div class="info">
+                <h4 class="title-menu title-menu2">info chung</h4>
+                <p class="font16"><b>Địa chỉ:</b> 70 Lữ Gia, Phường 15, Quận 11, <br>TP.HCM</p>
+                <p class="font16"><b>Điện thoại:</b> 03555 39891</p>
+                <p class="font16"><b>Email</b>: support@.vn</p>
+                <h4 class="title-menu title-menu2">Liên kết sàn</h4>
+                <img style="width: 32px; height: 32px;" src="./assets/img/mxh/zalo.webp" thay thế="" class="img-info">
+                <img style="width: 32px; height: 32px;" src="./assets/img/mxh/facebook.webp" thay thế=""
+                    class="img-info">
+                <img style="width: 32px; height: 32px;" src="./assets/img/mxh/youtube.webp" thay thế=""
+                    class="img-info">
+                <img style="width: 32px; height: 32px;" src="./assets/img/mxh/google.webp" thay thế="" class="img-info">
+            </div>
+
+        </div>
+    </footer>
 
 </body>
-<div class="footer">
-    <div class="width-section">
-        <div class="pay">
-            <div class="logo">
-                <img src="./assets/img/logo/logo.webp" alt="">
-            </div>
-            <p>Chúng tôi hi vọng tất cả người tiêu dùng Việt nam sẽ được sử dụng những thụ phẩm rau củ quả tươi
-                ngon, bổ dưỡng và an toàn nhất tại cửa hàng cung cấp thực phẩm rau củ sạch Dola <br>Organic.</p>
-            <br>
-            <h4 class="title-menu">Hình thức thanh toán</h4>
-            <img src="./assets/img/pay/money.webp" alt="" class="img-pay">
-            <img src="./assets/img/pay/bankking.webp" alt="" class="img-pay">
-            <img src="./assets/img/pay/visa.webp" alt="" class="img-pay">
-
-        </div>
-
-
-        <div class="policy">
-            <h4 class="title-menu">Chính sách</h4>
-            <p class="font16">Chính sách thành viên</p>
-            <p class="font16">Chính sách thanh toán</p>
-            <p class="font16">Hướng dẫn mua hàng</p>
-            <p class="font16">Bảo mật thông tin cá nhân</p>
-            <p class="font16">Quà tặng tri ân</p>
-        </div>
-
-
-
-        <div class="thông tin">
-            <h4 class="title-menu title-menu2">Thông tin chung</h4>
-            <p class="font16"><b>Địa chỉ:</b> 70 Lữ Gia, Phường 15, Quận 11, <br>TP.HCM</p>
-            <p class="font16"><b>Điện thoại:</b> 03555 39891</p>
-            <p class="font16"><b>Email</b>: support@.vn</p>
-            <h4 class="title-menu title-menu2">Liên kết sàn</h4>
-            <img style="width: 32px; height: 32px;" src="./assets/img/mxh/zalo.webp" thay thế="" class="img-thông tin">
-            <img style="width: 32px; height: 32px;" src="./assets/img/mxh/facebook.webp" thay thế="" class="img-thông tin">
-            <img style="width: 32px; height: 32px;" src="./assets/img/mxh/youtube.webp" thay thế="" class="img-thông tin">
-            <img style="width: 32px; height: 32px;" src="./assets/img/mxh/google.webp" thay thế="" class="img-thông tin">
-        </div>
-
-    </div>
-</div>
 
 </html>

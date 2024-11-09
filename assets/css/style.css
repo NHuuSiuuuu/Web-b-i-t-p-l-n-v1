@@ -72,7 +72,7 @@ input[type="text"] {
     border: 2px solid #679210;
     border-radius: 6px;
     height: 50px;
-    padding-right: 50px;
+    padding-left: 18px;
 }
 
 .search-bar>button {
@@ -88,6 +88,8 @@ input[type="text"] {
     right: 22px;
     color: #fff;
     cursor: pointer;
+    border: solid;
+    border-radius: 6px
 }
 
 .contact-info {
@@ -157,7 +159,7 @@ input[type="text"] {
     border-radius: 6px;
     padding-left: 30px;
     flex-wrap: wrap;
-    /* Cho phép các mục xuống dòng khi không đủ không gian */
+    overflow-x: auto;
 }
 
 .nav-list {
@@ -279,7 +281,7 @@ input[type="text"] {
     display: flex;
     flex-flow: column;
     align-items: center;
-    width: 168px;
+    width: 196px;
     justify-content: space-between;
 }
 
@@ -516,55 +518,94 @@ input[type="text"] {
     width: 100%;
     height: 330px;
 }
-.slide-vegetable  {
+
+.slide-vegetable {
     margin-bottom: 50px;
 }
+
 .footer {
     background-color: #efffcf;
-  }
-  .pay {
+}
+
+.pay {
     width: 433px;
     font-size: 14px;
     font-weight: 500;
-  }
-  .title-menu {
+}
+
+.title-menu {
     font-size: 18px;
     margin-bottom: 20px;
     color: #679210;
     font-weight: 700;
     text-transform: uppercase;
-  }
-  .img-pay {
+}
+
+.img-pay {
     width: 49px;
     height: 30px;
-  }
-  .footer .font16 {
+}
+
+.footer .font16 {
     font-weight: 500;
-  }
-  .footer b {
+}
+
+.footer b {
     color: #679210;
     font-weight: 700;
-  }
-  .img-info {
+}
+
+.img-info {
     width: 30px;
     height: 30px;
     cursor: pointer;
-  }
-  .footer .width-section {
+}
+
+.footer .width-section {
     display: flex;
     justify-content: space-between;
     padding: 50px 0;
     margin-top: 50px;
-  }
-  .copyright {
+}
+
+.copyright {
     padding: 10px 0;
     font-size: 16px;
     color: #000;
     border-top: 1px solid #679210;
     text-align: center;
-  }
-  
-  /* Định dạng cho nội dung chính */
-  .container {
+}
+
+/* Định dạng cho nội dung chính */
+.container {
     display: block;
-  }
+}
+.food.sale {
+    position: relative; /* Để đảm bảo giỏ hàng hiển thị ở vị trí chính xác */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;  /* Đảm bảo kích thước đồng nhất */
+    cursor: pointer;
+}
+
+.food img {
+    width: 100%;
+    padding: 10px;
+    margin-top: 24px;
+}
+
+.cart-icon {
+    position: absolute;
+    bottom: 10px;
+    display: none; /* Giỏ hàng bị ẩn ban đầu */
+    z-index: 10;   /* Đảm bảo giỏ hàng nằm trên các phần tử khác */
+}
+
+.food.sale:hover .cart-icon {
+    display: block;  /* Giỏ hàng sẽ hiển thị khi hover vào phần .food.sale */
+}
+
+.cart-icon img {
+        width: 85px;
+}
